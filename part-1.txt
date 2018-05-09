@@ -1,0 +1,14 @@
+part-1a
+
+{'accuracy': 0.9201, 'loss': 0.2966102, 'global_step': 4005}
+
+Source: cnn_mnist_tutorial.py
+
+Tensorboard: part-1a.png
+
+
+------
+
+part-1b
+
+{'accuracy': 0.846, 'loss': 0.7526372, 'global_step': 2000}
