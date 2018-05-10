@@ -27,7 +27,7 @@ def cnn_model_fn(features, labels, mode):
   # Convolutional Layer #1
   conv1 = tf.layers.conv2d(
       inputs=pool0,
-      filters=32,
+      filters=64,
       kernel_size=[5, 5],
       padding="same",
       activation=tf.nn.relu)
@@ -38,7 +38,7 @@ def cnn_model_fn(features, labels, mode):
   # Convolutional Layer #2 and Pooling Layer #2
   conv2 = tf.layers.conv2d(
       inputs=pool1,
-      filters=64,
+      filters=128,
       kernel_size=[5, 5],
       padding="same",
       activation=tf.nn.relu)
